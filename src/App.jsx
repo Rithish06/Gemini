@@ -1,12 +1,12 @@
 import React from 'react'
 import SlideBar from './components/slidebar/slidebar'
-import Main from './components/main/main'
+import Dummy from './components/main/main'
 
 const App = () => {
   return (
     <>
       <SlideBar />
-      <Main />
+      <Dummy />
     </>
   )
 }

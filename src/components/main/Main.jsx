@@ -3,7 +3,7 @@ import './Main.css'
 import { assets } from '../../assets/assets'
 import { context } from '../context/context'
 
-const Main = () => {
+const Dummy = () => {
 
     const {prevPrompts,setPrevPrompts,onSent,setRecentPrompt,recentPrompt,showResult,loading,resultData,input,setInput} = useContext(context)
 
@@ -72,4 +72,4 @@ const Main = () => {
   )
 }
 
-export default Main
+export default Dummy
