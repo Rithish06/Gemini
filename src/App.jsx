@@ -1,6 +1,6 @@
 import React from 'react'
 import SlideBar from './components/slidebar/slidebar'
-import Dummy from './components/master/main'
+import Dummy from './components/master/Main'
 
 const App = () => {
   return (
