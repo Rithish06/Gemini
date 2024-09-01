@@ -1,0 +1,67 @@
+.slidebar{
+    min-height: 100vh;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f4f9;
+    flex-direction: column;
+    padding: 25px 15px;
+}
+
+.slidebar img{
+    width: 20px;
+}
+
+.menu{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.newChat{
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px;
+    background-color: #e6edf1;
+    border-radius: 50px;
+    font-size: 14px;
+    color: grey;
+    cursor: pointer;
+}
+
+.recent{
+    display: flex;
+    flex-direction: column;
+}
+
+.recent_title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.recent_entry{
+    display: inline-flex;
+    align-items: start;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    color : #282828;
+    cursor: pointer;
+}
+
+.recent_entry:hover{
+    background-color: #e3e6eb;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_item{
+    padding-right: 10px;
+    cursor: pointer;
+}
